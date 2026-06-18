@@ -2,5 +2,5 @@ config{
   type: "declaration",
   database: "bigquery-public-data",
   schema: "austin_bikeshare",
-  name: "bikeshare_trips
+  name: "bikeshare_trips"
   }
