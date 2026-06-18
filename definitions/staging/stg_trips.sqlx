@@ -1,0 +1,14 @@
+config{
+    type: "table"
+}
+
+select 
+    trip_id,
+    subscriber_type,
+    start_station_name,
+    end_station_name,
+    duration_minutes,
+    cast(start_time as timestamp) as start_time_ts
+from 
+    ${ref("bikeshare_trips")}
+where duration_minutes > 0
