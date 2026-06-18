@@ -1,0 +1,16 @@
+{
+    "projects": [
+        {
+            "module_name": "",
+            "project":{
+               "type": "simple",
+               "extre_build_vars": "",
+               "localpath": ""
+            },
+            "configs_files": ""
+        }
+    ],
+    "artifact_prop":{
+        "git_tag": ""
+    }
+}
