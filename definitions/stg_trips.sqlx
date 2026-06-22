@@ -1,6 +1,4 @@
-config{
-    type: "table"
-}
+config {type: "table" }
 
 select 
     trip_id,
@@ -10,5 +8,5 @@ select
     duration_minutes,
     cast(start_time as timestamp) as start_time_ts
 from 
-    ${ref("bikeshare_trips")}
+   `${dataform.dataform-tutorial-project.bikeshare_trips}`
 where duration_minutes > 0
