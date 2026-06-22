@@ -1,4 +1,10 @@
-dataformCoreVersion: 3.0.37
-defaultProject: "dataform-tutorial-project"
-defaultDataset: "dataform"
-defaultAssertionDataset: "dataform_assertions"
+# dataformCoreVersion: 3.0.52
+# defaultProject: "dataform-tutorial-project"
+# defaultDataset: "dataform"
+# defaultAssertionDataset: "dataform_assertions"
+
+
+dataformCoreVersion: 3.0.52
+defaultProject: dataform-tutorial-project
+defaultDataset: dataform
+defaultAssertionDataset: dataform_assertions
